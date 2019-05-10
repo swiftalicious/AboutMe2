@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        print("My name is Jason")
+        nameLabel.text = "My name is Jason"
+        hobbiesLabel.text = "Basketball"
     }
 
-
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var hobbiesLabel: UILabel!
 }
 
